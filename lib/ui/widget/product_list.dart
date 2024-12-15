@@ -53,12 +53,14 @@ class _ProductItemState extends State<ProductItem> {
       trailing: Wrap(
         children: [
           IconButton(
+            color: const Color.fromARGB(255, 73, 115, 121),
               onPressed: () {
                 _deleteProduct();
                 setState(() {});
               },
-              icon: const Icon(Icons.delete)),
+              icon: const Icon(Icons.delete_outline),),
           IconButton(
+            color: const Color.fromARGB(255, 73, 115, 121),
             onPressed: () {
               Navigator.pushNamed(
                 context,
@@ -66,7 +68,7 @@ class _ProductItemState extends State<ProductItem> {
                 arguments: widget.product,
               );
             },
-            icon: const Icon(Icons.edit),
+            icon: const Icon(Icons.edit_outlined),
           ),
         ],
       ),
