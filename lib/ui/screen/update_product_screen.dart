@@ -207,6 +207,7 @@ class _UpdateProductScreenState extends State<UpdateProductScreen> {
                 backgroundColor: const Color.fromARGB(255, 73, 115, 121),
                 elevation: 5,
                 minimumSize: const Size(300, 50),
+
               ),
               onPressed: () {
                 if (_formKey.currentState!.validate()) {

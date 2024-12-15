@@ -74,6 +74,7 @@ class _AddNewProductScreenState extends State<AddNewProductScreen> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: TextFormField(
+              keyboardType: TextInputType.phone,
               autovalidateMode: AutovalidateMode.onUserInteraction,
               controller: _codeTEController,
               decoration: const InputDecoration(
@@ -118,6 +119,7 @@ class _AddNewProductScreenState extends State<AddNewProductScreen> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: TextFormField(
+              keyboardType: TextInputType.phone,
               autovalidateMode: AutovalidateMode.onUserInteraction,
               controller: _priceTEController,
               decoration: const InputDecoration(
@@ -140,6 +142,7 @@ class _AddNewProductScreenState extends State<AddNewProductScreen> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: TextFormField(
+              keyboardType: TextInputType.phone,
               autovalidateMode: AutovalidateMode.onUserInteraction,
               controller: _quantityTEController,
               decoration: const InputDecoration(
@@ -162,6 +165,7 @@ class _AddNewProductScreenState extends State<AddNewProductScreen> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: TextFormField(
+              keyboardType: TextInputType.phone,
               autovalidateMode: AutovalidateMode.onUserInteraction,
               controller: _totalPriceTEController,
               decoration: const InputDecoration(
